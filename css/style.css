@@ -10,22 +10,28 @@ body {
 .location h1 {
   font-size:25px;
   color:black;
-  line-height: 1.1;
   font-weight: bold;
   width: 80%;
+
 }
 
 .location h3 {
   font-size:16px;
   color:black;
   line-height: 1.5;
+  width: 80%;
+
 }
 .container {
   margin: 0 auto;
   width: 80%;
 }
+
+
+
 .box1 {
   padding: 30px;
+
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 0px;
@@ -46,22 +52,28 @@ body {
 
 }
 
-div.location:hover {background-color: slateblue;}
+div.box1:hover {background-color: slateblue;}
 
 .arrow nav {
   float:left;
-}
-.arrow i {
-  color: black;
-  float: right;
   display: inline-block;
-  padding-bottom: 0px;
-  line-height: 0;
-
+  width: 25%;
 
 }
 
 
+.content {
+  display: inline-block;
+  width: 80%;
+}
+.arrow {
+  color: black;
+  padding-bottom: 10px;
+  width: 18%;
+  display: inline-block;
+  padding-right: 2px;
+  text-align: right;
+}
 
 .restaurant-list {
   padding-top: 0px;
